@@ -46,7 +46,7 @@
    (runs-normally no)
    (not (repair ?))
    =>
-   (assert (engine-sluggish (yes-or-no-p "El motor está lento? (yes/no)? "))))
+   (assert (engine-sluggish (yes-or-no-p "El motor esta lento? (yes/no)? "))))
    
 (defrule determine-misfiring ""
    (runs-normally no)
@@ -133,7 +133,7 @@
    (tank-has-gas no)
    (not (repair ?))
    =>
-   (assert (repair "Añadir gasolina.")))
+   (assert (repair "Anadir gasolina.")))
 
 (defrule battery-dead ""
    (battery-has-charge no)
@@ -169,7 +169,7 @@
   (declare (salience -10))
   (not (repair ?))
   =>
-  (assert (repair "Llevar el automovil a un mecánico.")))
+  (assert (repair "Llevar el automovil a un mecanico.")))
 
 ;;;********************************
 ;;;* REGLAS DE INICIO Y CONCLUSIÓN *
